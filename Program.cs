@@ -6,30 +6,33 @@ namespace logicalPrograms
     {
         public static void Main(String[] args)
         {
-            //AdditionOfTwoNums.add();
-            //Console.WriteLine("------------------------");
-            //IsPrimeNumber p=new IsPrimeNumber();
-            //p.isPrimeNum();
-            //Console.WriteLine("------------------------");
+            Console.WriteLine(" welcome to basic functional programs");
+
+            Console.WriteLine("------------------------");
+            IsPrimeNumber p = new IsPrimeNumber();
+            p.isPrimeNum();
+            Console.WriteLine("------------------------");
 
 
 
-            //FlipTheCoin flip = new FlipTheCoin();
-            //flip.flipCoin();
+            FlipTheCoin flip = new FlipTheCoin();
+            flip.flipCoin();
 
 
-            //LeapYear.checkLeapYear();
+            LeapYear.checkLeapYear();
 
-            //PowerOfTwo.computePower();
+            PowerOfTwo.computePower();
 
 
-            //ComputeQuotientAndReminder.compute();
+            ComputeQuotientAndReminder.compute();
 
-            //SwapTwoNums.swapNums();
+            SwapTwoNums.swapNums();
 
-            //CheckEvenOrOdd.checkEvenOdd();
+            CheckEvenOrOdd.checkEvenOdd();
 
             LargestOfThreeNumbers.findLargest();
+
+            StopWatchProgram.stopWatch();
 
         }
     }
